@@ -4,18 +4,34 @@ header{
     background-color: black;
 }
 
+body{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp");
+    background-color: #cccccc;
+    min-width: 1024px;
+    min-height: 100%;
+    width:100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .logo{
+    position: relative;
     margin-left: 100px;
     height: 60px;
     width: auto;
+    
 }
 .row-buttons{
-    height: 15px;
-    width: 50px;
+    align-items: center;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: baseline;
 	align-content: stretch;
+}
+
+.background.image{
+
 }
